@@ -1,0 +1,215 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.container {
+  outline: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  height: 800px;
+  background: #25282A;
+}
+
+.slider-container {
+  outline: 1px solid rgb(238, 62, 91);
+  width: 100%;
+  max-width: 1200px;
+  height: 750px;
+}
+
+.slider {
+  outline: 5px solid yellow;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slider-box {
+  /* outline: 3px solid green; */
+  position: absolute;
+  display: flex;
+  width: calc(100% * 4);
+  height: 600px;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(0px);
+}
+
+.slide__img {
+  width: calc(100% / 4);
+  height: auto;
+  object-fit: cover;
+}
+
+.slider-control {
+  outline: 1px solid darkmagenta;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 150px;
+}
+
+.slider-text {
+  outline: 1px solid blue;
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.slider-text__slide {
+  outline: 1px solid hotpink;
+  position: absolute;
+  display: flex;
+  width: 3200px;
+  height: 150px;
+  transition: all 0.5s ease-in-out;
+}
+
+.slider__text {
+  width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #FEFEFE;
+  transform: translateY(50px);
+}
+
+.slider-radio {
+  outline: 1px solid aqua;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  width: 400px;
+  height: 150px;
+}
+/*
+
+label - #71ABFF
+radio - #25282A
+hover - #FEFEFE
+
+*/
+.label {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  background: #71ABFF;
+  transition: all 0.2s;
+  cursor: pointer;
+  transform: translateY(50px);
+}
+
+.label:nth-child(4) {
+  margin-right: 10px;
+}
+
+.label:hover {
+  background: #FEFEFE;
+}
+
+.label::before {
+  outline: 1px solid black;
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  display: block;
+  width: 45px;
+  height: 45px;
+}
+
+.radio {
+  width: 21px;
+  height: 21px;
+  border-radius: 30px;
+  background: #25282A;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* SLIDER */
+
+#radio-1:checked ~ .slider .slider-box {
+  transform: translateX(0);
+}
+
+#radio-2:checked ~ .slider .slider-box {
+  transform: translateX(calc(-100% / 4));
+}
+
+#radio-3:checked ~ .slider .slider-box {
+  transform: translateX(calc(-100% / 4 * 2));
+}
+
+#radio-4:checked ~ .slider .slider-box {
+  transform: translateX(calc(-100% / 4 * 3));
+}
+
+/* RADIO */
+
+/* radio-1: visible */
+#radio-1:not(:checked) ~ .slider-control .slider-radio label[for="radio-1"] .radio {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* visibility: visible */
+#radio-1:checked ~ .slider-control .slider-radio label[for="radio-1"] .radio,
+#radio-2:checked ~ .slider-control .slider-radio label[for="radio-2"] .radio,
+#radio-3:checked ~ .slider-control .slider-radio label[for="radio-3"] .radio,
+#radio-4:checked ~ .slider-control .slider-radio label[for="radio-4"] .radio {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* visibility: hidden */
+#radio-2:checked ~ .slider-control .slider-radio label[for="radio-1"] .radio,
+#radio-3:checked ~ .slider-control .slider-radio label[for="radio-1"] .radio,
+#radio-4:checked ~ .slider-control .slider-radio label[for="radio-1"] .radio {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* TEXT */
+
+#radio-1:checked ~ .slider-control .slider-text .slider-text__slide {
+  transform: translateX(0);
+}
+
+#radio-2:checked ~ .slider-control .slider-text .slider-text__slide {
+  transform: translateX(-800px);
+}
+
+#radio-3:checked ~ .slider-control .slider-text .slider-text__slide {
+  transform: translateX(-1600px);
+}
+
+#radio-4:checked ~ .slider-control .slider-text .slider-text__slide {
+  transform: translateX(-2400px);
+}

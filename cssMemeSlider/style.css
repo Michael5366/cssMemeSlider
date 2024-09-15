@@ -81,7 +81,7 @@ input {
   justify-content: space-between;
   width: 100%;
   max-width: var(--width_1200);
-  height: 150px;
+  height: 150rem;
   overflow: hidden;
   transition: all 0.3s;
 }
@@ -89,14 +89,14 @@ input {
 .slider-text {
   display: flex;
   width: var(--width_800);
-  height: 150px;
+  height: 150rem;
   overflow: hidden;
 }
 
 .slider-text__slide {
   display: flex;
   width: var(--width_3200);
-  height: 150px;
+  height: 150rem;
   transition: all 0.5s ease-in-out;
 }
 
@@ -115,7 +115,7 @@ input {
   justify-content: flex-end;
   column-gap: 20px;
   width: var(--width_400);
-  height: 150px;
+  height: 150rem;
   transition: all 0.3s;
 }
 
@@ -123,8 +123,8 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
-  height: 25px;
+  width: 25rem;
+  height: 25rem;
   border-radius: 30px;
   background: #71ABFF;
   transition: all 0.2s;
@@ -146,8 +146,8 @@ input {
 }
 
 .radio {
-  width: 21px;
-  height: 21px;
+  width: 21prem;
+  height: 21rem;
   border-radius: 30px;
   background: #25282A;
   transform: scale(0.5);

@@ -24,15 +24,15 @@ input {
 }
 
 :root {
-  --width_3200: 2944rem; /* 2944px */
-  --width_1280: 1024rem;  /* 1024px */
-  --width_1200: 944rem;  /* 944px */
-  --width_800: 544rem;   /* 544px */
-  --width_400: 400rem;   /* 400px */
+  --width_3200: 2944rem;
+  --width_1280: 1024rem;
+  --width_1200: 944rem;
+  --width_800: 544rem;
+  --width_400: 400rem;
 
-  --height_600: 530rem;  /* 530px */
-  --height_800: 730rem;  /* 730px */
-  --height_750: 680rem;  /* 680px */
+  --height_600: 530rem;
+  --height_800: 730rem;
+  --height_750: 680rem;
 }
 
 .container {
@@ -127,13 +127,7 @@ input {
   height: 150px;
   transition: all 0.3s;
 }
-/*
 
-label - #71ABFF
-radio - #25282A
-hover - #FEFEFE
-
-*/
 .label {
   display: flex;
   justify-content: center;

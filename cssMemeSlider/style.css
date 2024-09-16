@@ -65,14 +65,14 @@ input {
   width: calc(100% * 4);
   height: var(--height_800);
   transition: all 0.5s ease-in-out;
-  transform: translateX(0px);
+  transform: translateX(0rem);
 }
 
 .slide__img {
   width: calc(100% / 4);
   height: auto;
   object-fit: contain;
-  transform: translateY(-100px);
+  transform: translateY(-100rem);
 }
 
 .slider-control {
@@ -105,14 +105,14 @@ input {
   font-weight: normal;
   font-size: 20rem;
   color: #FEFEFE;
-  transform: translateY(40px);
+  transform: translateY(40rem);
 }
 
 .slider-radio {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
-  column-gap: 20px;
+  column-gap: 20rem;
   width: var(--width_400);
   height: 150rem;
   transition: all 0.3s;
@@ -129,11 +129,11 @@ input {
   transition: all 0.2s;
   cursor: pointer;
   transition: all 0.2s;
-  transform: translateY(50px);
+  transform: translateY(50rem);
 }
 
 .label:nth-child(4) {
-  margin-right: 10px;
+  margin-right: 10rem;
 }
 @media (min-width: 700px) {
   .label:hover {

@@ -304,15 +304,15 @@ input {
   }
   
   .slider-text {
-    height: 70px;
+    height: 70rem;
   }
 
   .slider-text__slide {
-    height: 60px;
+    height: 60rem;
   }
 
   .slider__text {
-    height: 60px;
+    height: 60rem;
     transform: translateY(0px);
   }
 
@@ -321,7 +321,7 @@ input {
     justify-content: center;
     align-items: flex-start;
     flex-grow: 0;
-    height: 65px;
+    height: 65rem;
   }
 
   .label {
@@ -429,7 +429,7 @@ input {
   }
 
   .slider {
-    height: 380px;
+    height: 380rem;
   }
 }
 
@@ -446,17 +446,17 @@ input {
   }
 
   .slider {
-    height: 360px;
+    height: 360rem;
   }
 
   .label {
-    width: 20px;
-    height: 20px;
+    width: 20rem;
+    height: 20rem;
   }
 
   .radio {
-    width: 16px;
-    height: 16px;
+    width: 16rem;
+    height: 16rem;
   }
 }
 
@@ -473,7 +473,7 @@ input {
   }
 
   .slider {
-    height: 360px;
+    height: 360rem;
   }
 }
 
@@ -518,7 +518,7 @@ input {
   }
 
   .slider {
-    height: 360px;
+    height: 360rem;
   }
 
   .slider-radio {
@@ -539,7 +539,7 @@ input {
   }
 
   .slider {
-    height: 360px;
+    height: 360rem;
   }
 
   .slider-radio {
@@ -578,7 +578,7 @@ input {
   }
 
   .slider {
-    height: 320px;
+    height: 320rem;
   }
 
   .slider-radio {
@@ -613,7 +613,7 @@ input {
   }
 
   .slider {
-    height: 320px;
+    height: 320rem;
   }
 
   .slider-radio {
@@ -621,7 +621,7 @@ input {
   }
 
   .slider-text {
-    height: 80px;
+    height: 80rem;
   }
 }
 
@@ -652,7 +652,7 @@ input {
   }
 
   .slider {
-    height: 320px;
+    height: 320rem;
   }
 
   .slider-radio {
@@ -660,6 +660,6 @@ input {
   }
 
   .slider-text {
-    height: 80px;
+    height: 80rem;
   }
 }

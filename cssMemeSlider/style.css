@@ -1,5 +1,5 @@
 html {
-  font-size: 1px;
+  font-size: 6.25%;
 }
 
 html,
@@ -325,7 +325,7 @@ input {
   }
 
   .label {
-    transform: translateY(9px);
+    transform: translateY(9rem);
   }
 }
 
@@ -366,7 +366,7 @@ input {
   
   .container {
     height: 620rem;
-    padding-bottom: 60px;
+    padding-bottom: 60rem;
   }
 }
 
@@ -391,7 +391,7 @@ input {
   
   .container {
     height: 580rem;
-    padding-bottom: 30px;
+    padding-bottom: 30rem;
   }
 
   .slider {
@@ -408,7 +408,7 @@ input {
   
   .container {
     height: 550rem;
-    padding-bottom: 30px;
+    padding-bottom: 30rem;
   }
 
   .slider {
@@ -425,7 +425,7 @@ input {
   
   .container {
     height: 530rem;
-    padding-bottom: 20px;
+    padding-bottom: 20rem;
   }
 
   .slider {
@@ -442,7 +442,7 @@ input {
   
   .container {
     height: 500rem;
-    padding-bottom: 20px;
+    padding-bottom: 20rem;
   }
 
   .slider {
@@ -469,7 +469,7 @@ input {
   
   .container {
     height: 480rem;
-    padding-bottom: 30px;
+    padding-bottom: 30rem;
   }
 
   .slider {
@@ -514,7 +514,7 @@ input {
   
   .container {
     height: 460rem;
-    padding-bottom: 40px;
+    padding-bottom: 40rem;
   }
 
   .slider {
@@ -535,7 +535,7 @@ input {
   
   .container {
     height: 430rem;
-    padding-bottom: 50px;
+    padding-bottom: 50rem;
   }
 
   .slider {
@@ -574,7 +574,7 @@ input {
   
   .container {
     height: 410rem;
-    padding-bottom: 30px;
+    padding-bottom: 30rem;
   }
 
   .slider {
@@ -609,7 +609,7 @@ input {
   
   .container {
     height: 400rem;
-    padding-bottom: 30px;
+    padding-bottom: 30rem;
   }
 
   .slider {
@@ -648,7 +648,7 @@ input {
   
   .container {
     height: 360rem;
-    padding-bottom: 40px;
+    padding-bottom: 40rem;
   }
 
   .slider {
